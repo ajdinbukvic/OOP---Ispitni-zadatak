@@ -1,0 +1,53 @@
+﻿  Biblioteka.cpp
+C:\Users\Student\source\repos\AjdinBukvicRok1\AjdinBukvicRok1\Biblioteka.cpp(46,30): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\xmemory(674): error C2259: 'BibliotecnaJedinica': cannot instantiate abstract class
+C:\Users\Student\source\repos\AjdinBukvicRok1\AjdinBukvicRok1\BibliotecnaJedinica.h(3): message : see declaration of 'BibliotecnaJedinica'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\xmemory(674): message : due to following members:
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\xmemory(674): message : 'void BibliotecnaJedinica::setISBN(void)': is abstract
+C:\Users\Student\source\repos\AjdinBukvicRok1\AjdinBukvicRok1\BibliotecnaJedinica.h(10): message : see declaration of 'BibliotecnaJedinica::setISBN'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\xmemory(674): message : 'void BibliotecnaJedinica::setGodinaIzdanja(void)': is abstract
+C:\Users\Student\source\repos\AjdinBukvicRok1\AjdinBukvicRok1\BibliotecnaJedinica.h(11): message : see declaration of 'BibliotecnaJedinica::setGodinaIzdanja'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(592): message : see reference to function template instantiation 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,const _Ty&>(_Alloc &,_Objty *const ,const _Ty &)' being compiled
+          with
+          [
+              _Alloc=std::allocator<BibliotecnaJedinica>,
+              _Ty=BibliotecnaJedinica,
+              _Objty=BibliotecnaJedinica
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(597): message : see reference to function template instantiation 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,const _Ty&>(_Alloc &,_Objty *const ,const _Ty &)' being compiled
+          with
+          [
+              _Alloc=std::allocator<BibliotecnaJedinica>,
+              _Ty=BibliotecnaJedinica,
+              _Objty=BibliotecnaJedinica
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(610): message : see reference to function template instantiation 'void std::vector<BibliotecnaJedinica,std::allocator<BibliotecnaJedinica>>::_Emplace_back_with_unused_capacity<const _Ty&>(const _Ty &)' being compiled
+          with
+          [
+              _Ty=BibliotecnaJedinica
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(627): message : see reference to function template instantiation 'void std::vector<BibliotecnaJedinica,std::allocator<BibliotecnaJedinica>>::emplace_back<const _Ty&>(const _Ty &)' being compiled
+          with
+          [
+              _Ty=BibliotecnaJedinica
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(626): message : while compiling class template member function 'void std::vector<BibliotecnaJedinica,std::allocator<BibliotecnaJedinica>>::push_back(const _Ty &)'
+          with
+          [
+              _Ty=BibliotecnaJedinica
+          ]
+C:\Users\Student\source\repos\AjdinBukvicRok1\AjdinBukvicRok1\Biblioteka.cpp(28): message : see reference to function template instantiation 'void std::vector<BibliotecnaJedinica,std::allocator<BibliotecnaJedinica>>::push_back(const _Ty &)' being compiled
+          with
+          [
+              _Ty=BibliotecnaJedinica
+          ]
+C:\Users\Student\source\repos\AjdinBukvicRok1\AjdinBukvicRok1\Biblioteka.h(8): message : see reference to class template instantiation 'std::vector<BibliotecnaJedinica,std::allocator<BibliotecnaJedinica>>' being compiled
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\xmemory(681,47): error C2259: 'BibliotecnaJedinica': cannot instantiate abstract class
+C:\Users\Student\source\repos\AjdinBukvicRok1\AjdinBukvicRok1\BibliotecnaJedinica.h(3): message : see declaration of 'BibliotecnaJedinica'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\xmemory(681,47): message : due to following members:
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\xmemory(681,47): message : 'void BibliotecnaJedinica::setISBN(void)': is abstract
+C:\Users\Student\source\repos\AjdinBukvicRok1\AjdinBukvicRok1\BibliotecnaJedinica.h(10): message : see declaration of 'BibliotecnaJedinica::setISBN'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\xmemory(681,47): message : 'void BibliotecnaJedinica::setGodinaIzdanja(void)': is abstract
+C:\Users\Student\source\repos\AjdinBukvicRok1\AjdinBukvicRok1\BibliotecnaJedinica.h(11): message : see declaration of 'BibliotecnaJedinica::setGodinaIzdanja'
+  main.cpp
+  Generating Code...
